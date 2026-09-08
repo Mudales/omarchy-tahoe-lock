@@ -8,7 +8,14 @@ It is the stock Omarchy lock screen with a new face. The PAM flows — password,
 fingerprint, the stranded-lock recovery — are unchanged from upstream, so
 unlocking behaves exactly as it does out of the box.
 
-![screenshot](screenshot.png)
+![The lock screen on the Ship At Sea background](screenshot.png)
+
+![The lock screen on the Dark Waters background](screenshot-dark-waters.png)
+
+Both shots are the same plugin on the stock `matte-black` theme — only the
+background differs. The clock takes its color from the theme, so how much it
+stands out is a property of the wallpaper behind it. Raise `opacity` if you
+want it to carry further on a dark one.
 
 ## Requirements
 
