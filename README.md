@@ -114,6 +114,12 @@ proportions on any monitor. Override any of it from this plugin's entry in
 | `fieldOffsetScale` | `0.27`         | How far below center the pill sits, as a fraction of screen height.           |
 | `fieldBorder`      | `false`        | Put the theme's accent ring back on the resting pill.                         |
 
+`fieldBorder` draws `[lock] border-active`, and the failed-attempt flash draws
+`[lock] border-error` — both the theme's own colors, at this plugin's own
+thickness. [Cupertino](https://github.com/Mudales/omarchy-cupertino) restyles
+idle borders only and leaves every lock state alone, so running the two
+together does not change this ring.
+
 Colors come from the active theme's `[lock]` section, so the clock follows
 whatever theme is set rather than pinning itself to white.
 
