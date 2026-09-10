@@ -17,6 +17,10 @@ background differs. The clock takes its color from the theme, so how much it
 stands out is a property of the wallpaper behind it. Raise `opacity` if you
 want it to carry further on a dark one.
 
+Its companion is [Cupertino](https://github.com/Mudales/omarchy-cupertino),
+which carries the same macOS flavor across the rest of the shell: one corner
+radius everywhere, hairline cards, and borderless controls.
+
 ## Requirements
 
 - Omarchy 4.x, which ships the Quickshell-based `omarchy-shell` lock screen.
